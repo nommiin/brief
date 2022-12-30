@@ -171,7 +171,7 @@ class Processor {
 
         if (Configuration.WRITE_TOKENS) {
             fs.writeFileSync("tokens.json", JSON.stringify(tokens, undefined, 4), {encoding: "utf-8"});
-            Logger.info(`Wrote ${tokens.length} to "tokens.json"`);
+            Logger.info(`Wrote ${tokens.length} tokens to "tokens.json"`);
         }
         return tokens;
     }

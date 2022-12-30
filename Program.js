@@ -24,8 +24,7 @@ class Program {
         const tokens = new Processor(scanner.Tokens).get();
         if (tokens.length === 0) throw `Could not parse wrapper, processed token list is empty`;
 
-        // Save tokens to JSON file
-        fs.writeFileSync("tokens.json", JSON.stringify(scanner.Tokens, undefined, 4), {encoding: "utf-8"});
+        // If Configuration.WRITE_TOKENS is true, token output can be found in "tokens.json"
     }
 }
 
