@@ -80,8 +80,8 @@ class Scanner {
         return this.Tokens;
     }
 
-    token(type, literal) {
-        if (!literal) return new Token(type, this.Content.slice(this.Start, this.Index), this.Start, this.Start - this.LineStart, this.Line);
+    token(type, literal=undefined) {
+        if (literal === undefined) return new Token(type, this.Content.slice(this.Start, this.Index), this.Start, this.Start - this.LineStart, this.Line);
         return new Token(type, literal, this.Start, this.Start - this.LineStart, this.Line);
     }
 
