@@ -1,6 +1,9 @@
 # brief
 A generic code scanner and tokenizer
 
+# Updates
+Any improvements or changes trickle down from [ImGui_GM](https://github.com/nommiin/ImGui_GM), check that repo if there is a newer version of brief
+
 # Usage
 - Use `Scanner` to scan lines of code into a flat list of tokens
 - Use `Processor.get` to nest tokens and apply other modifiers
