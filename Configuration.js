@@ -25,12 +25,12 @@ class Configuration {
     /**
      * @description If true, scanner class will retain "Semicolon" tokens
      */
-    static KEEP_SEMICOLONS = false;
+    static KEEP_SEMICOLONS = true;
 
     /**
      * @description If true, scanner class will retain "Comment" and "CommentMultiline" tokens
      */
-    static KEEP_COMMENTS = false;
+    static KEEP_COMMENTS = true;
 
     /**
      * @description Keyword/macro used for marking wrapper functions
