@@ -1,2 +1,2 @@
 # brief
- Generic code scanner and tokenizer
+A generic code scanner and tokenizer
