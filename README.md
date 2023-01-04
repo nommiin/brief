@@ -2,7 +2,7 @@
 A generic code scanner and tokenizer
 
 # Updates
-Any improvements or changes trickle down from [ImGui_GM](https://github.com/nommiin/ImGui_GM), check that repo if there is a newer version of brief
+Any improvements or changes trickle down from [ImGui_GM's version of brief](https://github.com/nommiin/ImGui_GM/tree/main/tools/brief), check that repo if there is a newer version of brief. Odds are this repo will not be updated as frequently.
 
 # Usage
 - Use `Scanner` to scan lines of code into a flat list of tokens
